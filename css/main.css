@@ -3877,21 +3877,12 @@ footer .row {
         border-bottom:3px solid #700DC0;
     }
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:769px){
     .services-open-button{
         width: 20px;
         height: 20px;
         border-left:3px solid #000000;
         border-bottom:3px solid #000000;
-    }
-    .services-open-button.active{
-        transform: rotate(-225deg);
-        border-left:2px solid #700DC0;
-        border-bottom:3px solid #700DC0;
-    }
-    .services-open-button:hover{
-        border-left:2px solid #700DC0;
-        border-bottom:2px solid #700DC0;
     }
 }
 
