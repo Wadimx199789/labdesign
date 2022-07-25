@@ -32,7 +32,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: #0087cc;
+    color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -40,7 +40,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #39b54a;
+    color: #9a3be8;
 }
 
 a:hover,
@@ -506,7 +506,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #CBFF00;
+    background: #700DC0;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -550,7 +550,7 @@ form,
 }
 
 .line-scale-pulse-out>div {
-    background-color: #CBFF00;
+    background-color: #700DC0;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -785,7 +785,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #39b54a;
+    -webkit-text-fill-color: #700DC0;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -845,8 +845,10 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #700DC0;
+    ;
+    border-color: #700DC0;
+    ;
     color: #FFFFFF;
 }
 
@@ -860,8 +862,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #9a3be8;
+    border-color: #9a3be8;
 }
 
 
@@ -1323,12 +1325,13 @@ input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #CBFF00;
+    color: #700DC0;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2337,7 +2340,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
-    font-family: 'Karla',sans-serif;
+    font-family: 'Karla', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 2.4rem;
@@ -3149,7 +3152,8 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #39b54a;
+    background: #700DC0;
+    ;
 }
 
 .s-contact .form-field label::after {
@@ -3196,7 +3200,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #700DC0;
 }
 
 .contact-content input[type="email"],
@@ -3824,7 +3828,38 @@ footer .row {
     }
 }
 
-
+.service-text p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+}
+.services-list-hide{
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.services-open-button{
+    width: 50px;
+    height: 50px;
+    border-left:4px solid #000000;
+    border-bottom:4px solid #000000;
+    transform: rotate(-45deg);
+    margin:0 auto;
+    cursor:pointer;
+    transition: 1s;
+}
+.services-open-button.active{
+    transform: rotate(-225deg);
+    border-left:4px solid #700DC0;
+    border-bottom:4px solid #700DC0;
+}
+.services-open-button:hover{
+    border-left:4px solid #700DC0;
+    border-bottom:4px solid #700DC0;
+}
 
 
 /*# sourceMappingURL=main.css.map */
